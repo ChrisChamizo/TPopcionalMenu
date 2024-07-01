@@ -4,4 +4,4 @@ Descripcion del trabajo practico: En el siguiente proyecto, se intentó replicar
 
 ACLARACION: !!!NO SE PUDO APLICAR EL RESPONSIVE!!!
 
-Si desea ver la pagina web finalizada haga click aqui.
+Si desea ver la página web creada, <a href="https://chrischamizo.github.io/TpOpcionalMenu/">Haga click aqui</a>.

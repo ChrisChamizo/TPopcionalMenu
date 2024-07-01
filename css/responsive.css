@@ -1,0 +1,83 @@
+/*Medias query para realizar el responsive de la pagina*/
+/*Teniendo en cuenta estas medidas llamo a los selectores correspondientes para que se ajuste
+el contenido a esa medida en px*/
+@media(max-width:1440px){
+    
+        .galeria-imagen {
+            flex: 1 1 calc(50% - 20px); /* Dos ítems por fila */
+        }
+        nav ul.menu li a {
+            font-size: 12px; /* Ajusta el tamaño del texto en el menú */
+        }
+    }
+    
+
+
+@media(max-width:1024px){
+    
+        header {
+            padding: 10px;
+        }
+        nav ul.menu {
+            flex-direction: column; /* Cambia la dirección del menú a columna */
+            align-items: flex-start;
+        }
+        nav ul.menu li {
+            margin: 5px 0;
+        }
+        nav ul.menu li.spacer {
+            display: none; /* Oculta el espacio */
+        }
+        .galeria-imagen {
+            flex: 1 1 calc(50% - 20px); /* Dos ítems por fila */
+        }
+    }
+    
+
+
+    @media (max-width: 767px) {
+        nav ul.menu {
+            flex-direction: column; /* Dirección vertical para el menú */
+            align-items: flex-start;
+        }
+        nav ul.menu li {
+            margin: 5px 0;
+        }
+        nav ul.menu li.search input {
+            width: 100%; /* Ancho completo para el input de búsqueda */
+        }
+        .galeria-imagen {
+            flex: 1 1 calc(100% - 20px); /* Un ítem por fila */
+        }
+    }
+    
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px; /* Reduce el tamaño de la fuente */
+        }
+        header {
+            padding: 5px;
+        }
+        nav ul.menu {
+            flex-direction: column; /* Dirección vertical para el menú */
+            align-items: flex-start;
+        }
+        nav ul.menu li {
+            margin: 5px 0;
+        }
+        nav ul.menu li.search input {
+            width: 100%; /* Ancho completo para el input de búsqueda */
+        }
+        nav ul.menu li.logo a {
+            font-size: 18px; /* Ajusta el tamaño del logo */
+        }
+        .galeria-fotos {
+            padding: 5px;
+        }
+        .galeria-imagen {
+            flex: 1 1 calc(100% - 10px); /* Un ítem por fila */
+            margin: 5px; /* Reduce el margen */
+        }
+    }
+    
